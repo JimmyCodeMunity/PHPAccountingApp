@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    height: 10vh;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+    padding: 12px;
+    list-style: none;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+    padding: 120px;
+    place-items: center;
+    display: grid;
+}
+
+.counterbtn {
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    width: 200px;
+    height: 40px;
+    border-radius: 12px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+section{
+    height: 100vh;
+    
+}
+form{
+    display:grid;
+    place-items:center;
+    background-color: lightgrey;
+    border-radius: 12px;
+    height: 300px;
+    width: 30%;
+    box-shadow: 4px 4px gray;
+}
+input{
+    border-radius: 7px;
+    border:1px solid gray;
+    height:32px;
+    width: 80%;
+}
+input:hover{
+    border:1px solid blue;
+
+}
+.addnot{
+    background-color:black;
+    border:0;
+    color:white;
+    padding:12px;
+    border-radius:8px;
+    width: 50%;
+}
+label{
+    font-weight: bold;
+}
+.noti{
+    background-color: black;
+    padding:12px;
+    color:white;
+    position: absolute;
+    top:60px;
+    right:10px;
+    border-radius:7px;
+    box-shadow: 4px 8px lightgray;
+}
+.noti li{
+    border-bottom:1px solid gray;
+}
+.drop{
+    display:none;
+}
